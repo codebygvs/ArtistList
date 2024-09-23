@@ -109,7 +109,10 @@ fun ArtistCard(
                 painter = painterResource(id = artist.image),
                 contentDescription = "Artist image Leonardo da Vinci"
             )
-            Spacer(modifier = Modifier.size(16.dp))
+            Spacer(
+                modifier = Modifier
+                    .size(16.dp)
+            )
             Column {
                 Text(
                     text = artist.name,
